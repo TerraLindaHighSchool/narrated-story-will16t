@@ -35,7 +35,7 @@ public class Button extends Actor
         background = getImage();  // get image from class
         this.prefix = prefix;
         updateImage();
-        narration = Greenfoot.playSound("Audacity Project.mp3");
+        narration = new GreenfootSound("Audacity Project.mp3");
     }
     /**
      * Update the image on screen to show the current value.
